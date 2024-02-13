@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT father (name|last_name)*>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ATTLIST father label CDATA #FIXED "samer">
